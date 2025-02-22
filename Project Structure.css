@@ -1,0 +1,6 @@
+/delivery-website
+│── index.html         (Order Page)
+│── review.html        (Review Page)
+│── confirmation.html  (Confirmation Page)
+│── styles.css         (Styles for dark mode & RTL)
+│── script.js          (Handles form submission & navigation)
