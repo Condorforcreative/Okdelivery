@@ -1,5 +1,5 @@
-body {
-    background: url('images/LOGO.jpg') no-repeat center center fixed;
+ibody {
+    background: url('images/LOGOPreview.jpg') no-repeat center center fixed;
     background-size: cover; /* Ensures the background fills the screen */
     background-position: center; /* Centers the image */
     background-attachment: fixed; /* Keeps it fixed while scrolling */
