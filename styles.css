@@ -1,0 +1,47 @@
+body {
+    background: url('images/LOGO.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the background fills the screen */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps it fixed while scrolling */
+    background-color: #121212; /* Fallback dark color */
+    color: white;
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+button {
+    width: 100%; /* Ensures the button spans the full width of its container */
+    margin-top: 10px;
+    padding: 10px;
+    background: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+button:hover {
+    background: #0097a7;
+}
