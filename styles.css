@@ -1,6 +1,6 @@
 body {
     background: url('images/LOGO.jpg') no-repeat center center fixed;
-    background-size: contain; /* Ensures the background fills the screen */
+    background-size: 100% 100%; /* Ensures the background fills the screen */
     background-position: center center; /* Adjusts alignment */
     background-attachment: fixed; /* Keeps it fixed while scrolling */
     background-color: #121212; /* Fallback dark color */
