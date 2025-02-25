@@ -1,7 +1,7 @@
 body {
     background: url('images/LOGO.jpg') no-repeat center center fixed;
-    background-size: contain; /* Ensures the background fills the screen */
-    background-position: center; /* Adjusts alignment */
+    background-size: 100vw 100vh; /* Ensures the background fills the screen */
+    background-position: center center; /* Adjusts alignment */
     background-attachment: fixed; /* Keeps it fixed while scrolling */
     background-color: #121212; /* Fallback dark color */
     color: black;
@@ -9,18 +9,18 @@ body {
     direction: rtl;
     text-align: right;
     padding: 20px;
-	font-weight: bold;
+    font-weight: bold;
 }
 .container {
     max-width: 400px;
-	margin: auto;
+    margin: auto;
 }	
 
 input, textarea {
-	border-radius: 8px;
+    border-radius: 8px;
     font-size: 14px;
     padding: 12px;
-	width: 100%;
+    width: 100%;
     margin-top: 10px;
     padding: 10px;
     background: #333;
@@ -31,7 +31,7 @@ input, textarea {
 }
 
 button {
-	padding: 15px;
+    padding: 15px;
     font-size: 16px;
     font-weight: bold;
     width: 100%;
