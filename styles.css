@@ -11,6 +11,13 @@ body {
     padding: 20px;
 }
 
+/* Fix for mobile */
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+}
 .container {
     max-width: 400px;
     margin: auto;
