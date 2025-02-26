@@ -9,11 +9,15 @@ body {
     direction: rtl;
     text-align: right;
     padding: 20px;
-	font-weight: bold;
+    font-weight: bold;
+    min-height: 100vh;
+    height: 100%;
+    overflow: hidden; /* Prevents resizing */
+	
 }
 .container {
     max-width: 400px;
-	margin: auto;
+	margin: -50px auto 0 auto; /* Moves it up */
 }
 .confirmation-page {
     background-image: url('images/LOGO3.jpg');
@@ -23,10 +27,10 @@ body {
 }	
 
 input, textarea {
-	border-radius: 8px;
+    border-radius: 8px;
     font-size: 14px;
     padding: 12px;
-	width: 100%;
+    width: 100%;
     margin-top: 10px;
     padding: 10px;
     background: #333;
@@ -42,12 +46,14 @@ button {
     font-weight: bold;
     width: 100%;
     margin-top: 10px;
+    padding: 10px;
     background: #00bcd4;
     color: white;
     border: 2px solid black; /* Add black border */
     border-radius: 5px;
     cursor: pointer;
     box-sizing: border-box;
+    font-size: 18px;
 }
 
 
