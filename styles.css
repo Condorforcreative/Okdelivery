@@ -20,7 +20,7 @@ body {
 }
 .confirmation-page {
     background-image: url('images/LOGO3.jpg');
-    background-size: contain;
+    background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
 }	
