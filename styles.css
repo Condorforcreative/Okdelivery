@@ -12,6 +12,7 @@ body {
     font-weight: bold;
     min-height: 100vh;
     height: 100%;
+    overflow: hidden; /* Prevents resizing */
 }
 .container {
     max-width: 400px;
